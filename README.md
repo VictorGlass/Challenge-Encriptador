@@ -57,3 +57,6 @@ En la columna En Desarrollo estarán los elementos que estés desarrollando en e
 En la columna Pausado estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
 
 Por fin, en la columna Concluido estarán los elementos ya concluidos.
+
+
+<h1 align="center">Desarrollado por Victor Carrera</h1>
