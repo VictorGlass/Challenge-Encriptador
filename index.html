@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Encriptador - Oracle Next Education</title>
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header>
+        <div class="contenedor">
+            <div class="header_img">
+                <a href="index.html"><img src="assets/Logo.png" alt="logo de alura"></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="contenedor">
+            <!-- SECTION -->
+            <section class="encriptador">
+
+                <!-- FORM -->
+                <form class="encriptador_form">
+                    <section class="text_in">
+                        <textarea name="texto_en_area" id="texto" placeholder="Ingrese el texto aqui" required></textarea>
+                        <article class="text_in_info">
+                            <div class="info">
+                                <img src="assets/exclamacion.svg" alt="icono exclamacion" >
+                                <p id="warning">Solo letras minúsculas y sin acentos (valores numéricos no válidos)</p>
+                            </div>
+                            <div class="text_in_btns">
+                                <input id="enc" type="button" value="Encriptar" onclick="botonAlerta();">
+                                <input id="des" type="button" value="Desencriptar">
+                            </div>
+                        </article>
+                    </section>
+                </form>
+
+                <!-- SECTION -->
+                <section class="text_out_sec">
+                    <div class="out_content">
+                        <article class="content" id="default">
+                            <div class="text_out_img">
+                                <img src="assets/muñeco.png" alt="imagen muñeco animada">
+                            </div>
+                            <p>Ningun mensaje fue encontrado</p>
+                            <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                        </article>
+
+                        <article class="content invisible" id="result">
+                            <textarea name="text_out_area" id="texto_out"></textarea>
+                            <button id="copiar">Copiar</button>
+                    </article>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Desarrollado por <span>Victor Carrera</span>  - Encriptador de Texto - Oracle Next Education / Alura</p>
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>
