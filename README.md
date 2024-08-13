@@ -7,7 +7,7 @@
 </div>
 
 
-# 🔏 Encriptador de texto
+<h2 align="center"># 🔏 Encriptador de texto</h2>
 
 ## 💡 Descripción
 
