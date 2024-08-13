@@ -9,6 +9,7 @@
 
 <h2 align="center"># 🔏 Encriptador de texto</h2>
 <br>
+<br>
 ## 💡 Descripción
 
 Encriptador de texto desarrollado con JavaScript, HTML y CSS para el challenge del Proyecto ONE de Oracle+Alura LATAM.
