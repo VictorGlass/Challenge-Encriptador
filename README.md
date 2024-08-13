@@ -9,7 +9,7 @@
 
 <h2 align="center"># 🔏 Encriptador de texto</h2>
 <br>
-<br>
+
 
 <h2>## 💡 Descripción</h2>
 
